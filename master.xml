@@ -167,4 +167,10 @@ Your sources have been sync'd successfully.
            remote="github-https"
            groups="minilayout" />
 
+  <remove-project name="coreos/bootengine" />
+  <project path="src/third_party/bootengine"
+           name="glevand/coreos--bootengine"
+           remote="github-https"
+           groups="minilayout" />
+
 </manifest>
