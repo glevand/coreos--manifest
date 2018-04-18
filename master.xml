@@ -161,4 +161,10 @@ Your sources have been sync'd successfully.
            remote="github-https"
            groups="minilayout" />
 
+  <remove-project name="coreos/portage-stable" />
+  <project path="src/third_party/portage-stable"
+           name="glevand/coreos--portage-stable"
+           remote="github-https"
+           groups="minilayout" />
+
 </manifest>
