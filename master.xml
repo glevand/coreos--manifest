@@ -153,11 +153,13 @@ Your sources have been sync'd successfully.
   <project path="src/scripts"
            name="glevand/coreos--scripts"
            remote="github-https"
+           revision="for-merge-selinux"
            groups="minilayout" />
 
   <remove-project name="coreos/coreos-overlay" />
   <project path="src/third_party/coreos-overlay"
            name="glevand/coreos--coreos-overlay"
+           revision="for-merge-selinux"
            remote="github-https"
            groups="minilayout" />
 
@@ -165,12 +167,14 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/portage-stable"
            name="glevand/coreos--portage-stable"
            remote="github-https"
+           revision="for-merge-selinux"
            groups="minilayout" />
 
   <remove-project name="coreos/bootengine" />
   <project path="src/third_party/bootengine"
            name="glevand/coreos--bootengine"
            remote="github-https"
+           revision="for-merge-selinux"
            groups="minilayout" />
 
 </manifest>
