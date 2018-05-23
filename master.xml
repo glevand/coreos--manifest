@@ -146,4 +146,19 @@ Your sources have been sync'd successfully.
            name="coreos/update-ssh-keys"
            groups="minilayout" />
 
+  <remote name="github-ssh" fetch="ssh://git@github.com" />
+  <remote name="github-https" fetch="https://github.com" />
+
+  <remove-project name="coreos/scripts" />
+  <project path="src/scripts"
+           name="glevand/coreos--scripts"
+           remote="github-https"
+           groups="minilayout" />
+
+  <remove-project name="coreos/coreos-overlay" />
+  <project path="src/third_party/coreos-overlay"
+           name="glevand/coreos--coreos-overlay"
+           remote="github-https"
+           groups="minilayout" />
+
 </manifest>
